@@ -1,4 +1,4 @@
-// ╔╗ ╔═╗╔╗╔╔╦╗╔═╗
+// ╔╗ ╔═╗╔╗╔╔╦╗╔═╗con
 // ╠╩╗║╣ ║║║ ║ ║ ║
 // ╚═╝╚═╝╝╚╝ ╩ ╚═╝
 // ┌─┐┌─┐┌┐┌┌─┐┬┌─┐┬ ┬┬─┐┌─┐┌┬┐┬┌─┐┌┐┌
@@ -12,8 +12,8 @@ const CONFIG = {
 
 	// General
 	name: 'Faqih',
-	imageBackground: false,
-	openInNewTab: true,
+	imageBackground: true,
+	openInNewTab: false,
 	twelveHourFormat: false,
 
 	// Greetings
@@ -26,20 +26,20 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherKey: '4ae5bf49a6a3a9ed851412d166dbc5b2', // Write here your API Key
+	weatherIcons: 'Dark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '-3.318607',
+	defaultLongitude: '114.594376',
 
 	// Autochange
-	autoChangeTheme: true,
+	autoChangeTheme: false,
 
 	// Autochange by OS
-	changeThemeByOS: true,
+	changeThemeByOS: false,
 
 	// Autochange by hour options (24hrs format, string must be in: hh:mm)
 	changeThemeByHour: false,
@@ -61,13 +61,13 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://mail.google.com/',
 		},
 		{
-			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			id: '5',
+			name: 'Youtube Music',
+			icon: 'music',
+			link: 'https://music.youtube.com/',
 		},
 		{
 			id: '4',
@@ -76,16 +76,16 @@ const CONFIG = {
 			link: 'https://calendar.google.com/calendar/r',
 		},
 		{
-			id: '5',
+			id: '3',
 			name: 'Reddit',
 			icon: 'glasses',
 			link: 'https://reddit.com',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'Youtube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://youtube.com/',
 		},
 	],
 
@@ -135,24 +135,24 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'graduation-cap',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Simpadu',
+					link: 'https://simpadu.poliban.ac.id/',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'E-Learning',
+					link: 'https://elearning.poliban.ac.id/',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Google Docs',
+					link: 'https://docs.google.com',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Google Meet',
+					link: 'https://meet.google.com',
 				},
 			],
 		},
