@@ -13,7 +13,7 @@ const CONFIG = {
 	// General
 	name: 'Faqih',
 	imageBackground: true,
-	openInNewTab: false,
+	openInNewTab: true,
 	twelveHourFormat: false,
 
 	// Greetings
